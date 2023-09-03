@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOBILE STORE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">MOBISTORE</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Store</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <i class="bx bx-moon" id="darkMode-icon"></i>
+        <button class="login"><b>LOGIN</b></button>
+    </header>
+    <section class="home" id="home">
+        <div class="mob-container">
+            <span style="--i:0;"></span>
+            <img src="iPhone0.jpg" />
+            <span style="--i:1;"></span>
+            <img src="iPhone1.jpg" />
+            <span style="--i:2;"></span>
+            <img src="iPhone2.jpg" />
+            <span style="--i:3;"></span>
+            <img src="iPhone3.jpg" />
+            <span style="--i:4;"></span>
+            <img src="iPhone4.jpg" />
+            <span style="--i:5;"></span>
+            <img src="iPhone5.jpg" />
+        </div>
+        <div class="content">
+            <h1>Latest Mobiles<br /></h1><h2><center>at Best Prices</center></h2>
+            <br /><br /><br /><br />
+            <h3>Buy a new smart phone</h3>
+            <p>Experience the world at your fingertips</p>
+        </div>
+    </section>
+    <footer>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>MobiStore</h2>
+                <p>Why MobiStore</p>
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Returns and Refunds</p>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Help</h2>
+                <p>My Orders</p>
+                <p>FAQ</p>
+                <p>Customer Care</p>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Follow Us On</h2>
+                <div class="social-icons">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+        </footer>
+    <script>
+        let icon = document.querySelector('#darkMode-icon');
+        icon.onclick = () => {
+            icon.classList.toggle('bx-sun');
+            document.body.classList.toggle('dark-mode');
+        };
+    </script>
+</body>
+</html>
